@@ -7,5 +7,5 @@ result="Algunos de los número introducidos es mayor que 10";
 }else{
     result="Ninguno de los números es mayor que 10";
 }
-document.getElementById("result").innerHTML = result;
+document.getElementById("result").innerHTML = result;//comando para enviar datos al html
 document.getElementById("num").innerHTML = `Números introducidos: ${a}, ${b}, ${c}`;
