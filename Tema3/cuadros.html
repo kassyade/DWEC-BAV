@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Cuadrados aleatorios</title>
+    <style>
+        div{
+            position:fixed;
+            width:50px;
+            height:50px;
+        }
+    </style>
+</head>
+<body>
+<script>
+
+function getRandomPosition(max) {
+        return Math.floor(Math.random() * max);
+    }
+
+    // Función para crear cuadrados con un máximo de 50
+    function crearCuadrados(numeroDeCuadrados) {
+        // Asegurarse de que no se superen 50 cuadrados
+        let maxCuadrados = Math.min(numeroDeCuadrados, 50);
+
+        for (let i = 0; i < maxCuadrados; i++) {
+            // Crear un nuevo elemento div
+            let cuadrado = document.createElement("div");
+            
+            // Posicionar el cuadrado en coordenadas aleatorias
+            cuadrado.style.top = getRandomPosition(window.innerHeight - 50) + "px";
+            cuadrado.style.left = getRandomPosition(window.innerWidth - 50) + "px";
+
+            // Agregar el cuadrado al cuerpo del documento
+            document.body.appendChild(cuadrado);
+        }
+    }
+
+    // Crear hasta 50 cuadrados al cargar la página
+    crearCuadrados(60);  // Se pasan 60 como ejemplo, pero solo se crearán 50
+   
+</script>    
+</body>
+</html>
