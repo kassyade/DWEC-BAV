@@ -13,3 +13,8 @@ document.body.appendChild(hr1)
 
 let h2 = crearElemento("h2","Primer ejercicio ")
 document.body.appendChild(h2)
+ 
+let p1 = crearElemento("p","Utilizando funciones del dom crear la siguiente página, utilizando como referencia la información almacenada en el siguiente set:")
+document.body.appendChild(p1)
+/**primer ejercicio  */
+
