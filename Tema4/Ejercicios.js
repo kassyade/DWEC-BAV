@@ -18,3 +18,22 @@ let p1 = crearElemento("p","Utilizando funciones del dom crear la siguiente pág
 document.body.appendChild(p1)
 /**primer ejercicio  */
 
+let h31a = crearElemento("h3","Primer bloque de parrafos ")
+document.body.appendChild(h31a)
+
+let p1a = crearElemento("p","primer parrafo")
+document.body.appendChild(p1a)
+let p1b = crearElemento("p","primer parrafo")
+document.body.appendChild(p1b)
+let p1c = crearElemento("p","primer parrafo")
+document.body.appendChild(p1c)
+
+let h31a1 = crearElemento("h3","Segundo bloque de parrafos ")
+document.body.appendChild(h31a1)
+
+let p1a2 = crearElemento("p","primer parrafo")
+document.body.appendChild(p1a2)
+let p1b3 = crearElemento("p","primer parrafo")
+document.body.appendChild(p1b3)
+let p1c4 = crearElemento("p","primer parrafo")
+document.body.appendChild(p1c4)
