@@ -42,8 +42,8 @@ let hr2 =crearElemento("hr","")
 document.body.appendChild(hr2)
 /**segundo ejercicio */
 
-let h2= crearElemento("h2","Segundo ejercicio")
-document.body.appendChild(h2)
+let h2b= crearElemento("h2","Segundo ejercicio")
+document.body.appendChild(h2b)
 let p2 = crearElemento("p","Haz un programa que cuando se pulse un botón “InsertarAleatorio”, añada un elemento con un número aleatorio a una lista desordenada (elemento UL).")
 document.body.appendChild(p2)
 
@@ -64,3 +64,6 @@ document.body.appendChild(boton)
 boton.addEventListener("click", nuevo);
 let hr3= crearElemento("hr","")
 document.body.appendChild(hr3)
+
+h2b= crearElemento("h2","Tercer ejercicio")
+document.body.appendChild(h2b)
