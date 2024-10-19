@@ -37,6 +37,9 @@ let p1b3 = crearElemento("p","primer parrafo")
 document.body.appendChild(p1b3)
 let p1c4 = crearElemento("p","primer parrafo")
 document.body.appendChild(p1c4)
+
+let hr2 =crearElemento("hr","")
+document.body.appendChild(hr2)
 /**segundo ejercicio */
 
 let h2= crearElemento("h2","Segundo ejercicio")
@@ -52,13 +55,12 @@ ul.appendChild(li)
 
 function nuevo(){
 let num = Math.floor(Math.random()* 101)//numero random
-let a =crearElemento("li","nuevo elemento"+num)
+let a =crearElemento("li","nuevo elemento :"+num)
 ul.appendChild(a)
 }
 
 let boton= crearElemento("button","click!!")
 document.body.appendChild(boton)
-
 boton.addEventListener("click", nuevo);
-
-
+let hr3= crearElemento("hr","")
+document.body.appendChild(hr3)
