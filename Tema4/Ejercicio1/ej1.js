@@ -4,6 +4,10 @@ function crearElemento(tipo,contenido,padre){
     padre.appendChild(hijo)
 }
 crearElemento("h1","Primer bloque de parrafos",document.body)
-let a = document.body.createElement("h1")
-a.innerHTML="hplña "
-document.body.appendChild(a)
+crearElemento("p","Este es el primer parrafo ",document.body)
+crearElemento("p","Este es el segundo parrafo ",document.body)
+crearElemento("p","Este es el tercero parrafo ",document.body)
+crearElemento("h1","Segundo bloque de parrafos",document.body)
+crearElemento("p","Este es el primer parrafo ",document.body)
+crearElemento("p","Este es el segundo parrafo ",document.body)
+crearElemento("p","Este es el tercero parrafo ",document.body)
