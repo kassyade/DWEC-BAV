@@ -4,6 +4,11 @@ hijo.innerHTML =contenido
 padre.appendChild(hijo)
 return hijo; 
 }
+function crearElemento(tipo,contenido,padre){
+let hijo =document.createElement(tipo)
+hijo.innerHTML= contenido
+padre.appendChild(hijo)
+}
 
 function insertarLi(){
     let rand = Math.floor(Math.random() * 101)//crear un numero random de 0  a 100
