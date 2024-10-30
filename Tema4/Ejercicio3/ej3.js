@@ -4,18 +4,24 @@ hijo.innerHTML= contenido
 padre.appendChild(hijo)
 }
 crearElemento("p","Numero de checkbox:",document.body)
-let input=crearElemento("input","text",document.body)
 
-function crearCheck(){
-   
-let a = document.createElement(checkbox)
+let input = document.createElement("input")//el input del texto
+document.body.appendChild(input)
+
+let boton = document.createElement("button")
+boton.innerHTML="Crear checkbox"
+document.body.appendChild(boton);
+boton.addEventListener("click",crearCheckbox)
+
+function crearCheckbox(){
+let a = document.createElement("input")//input para el checkbox
+a.type="checkbox"
 document.body.appendChild(a)
-let b = document.createElement("label ")
-b=
+
+let b = document.createElement("label")//label para el texto del checkbox
+b.innerHTML = input.value 
+document.body.appendChild(b)
+
+crearElemento("br","",document.body)
+
 }
-
-let boton = crearElemento("button","click",document.body)
-boton.addEventListener("click",crearCheck(input.value))
-
-
-
