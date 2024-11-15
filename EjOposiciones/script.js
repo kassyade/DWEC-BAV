@@ -16,13 +16,47 @@ autores=[// con un array
 ]
 
 let seleccion = document.getElementById("idAutores")
-
+/*
 let opcion = document.createElement("option")
 opcion.value="hola"//el valor que tiene
 opcion.textContent="hola"//lo que vera el usuario
-seleccion.appendChild(opcion)
+seleccion.appendChild(opcion)*/
 
 function opciones (nombre,valor){
-nombre = 
+let opcion = document.createElement("option")
+opcion.value=valor 
+opcion.textContent= nombre 
+seleccion.appendChild(opcion)
+}
+
+let autoresUnicos = []//como se repiten los autores creamos un array sin repetidos
+
+autores.forEach(//recorremos el arrayautorees
+    (autor)=>{//autor como cada elemento del array 
+        if (!autoresUnicos.includes(autor[0])){//autor[0] se refiere al nombre del autor 
+            autoresUnicos.push(autor[0])//incluimos el valor en el array de autoresUnicos
+        }
+
+    }
+)
+
+
+autoresUnicos.forEach(//pobemos los autores dentro del select
+    (autor)=>{opciones(autor,autor)
+    }
+)
+let tabla = document-getElementById("idTabla").querySelector("tbody")
+
+seleccion.addEventListener("change",()=>{
+    const autorSeleccionado = seleccion.value
+
+    tabla.innerHTML =""//vaciamos la tabla 
+    autores.forEach(
+        (autor)
+    )
+
 
 }
+
+
+)
