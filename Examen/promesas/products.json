@@ -1,0 +1,65 @@
+{
+    "productos": [
+      {
+        "Nombre": "Laptop Lenovo",
+        "Precio": 799.99,
+        "Categoría": "Electrónica",
+        "Disponible": true
+      },
+      {
+        "Nombre": "Samsung Galaxy S21",
+        "Precio": 999.99,
+        "Categoría": "Teléfonos móviles",
+        "Disponible": true
+      },
+      {
+        "Nombre": "Audífonos Sony WH-1000XM4",
+        "Precio": 349.99,
+        "Categoría": "Audio",
+        "Disponible": false
+      },
+      {
+        "Nombre": "Apple iPad Air",
+        "Precio": 599.99,
+        "Categoría": "Tabletas",
+        "Disponible": true
+      },
+      {
+        "Nombre": "Silla Gamer",
+        "Precio": 199.99,
+        "Categoría": "Muebles",
+        "Disponible": true
+      },
+      {
+        "Nombre": "Monitor LED 24\"",
+        "Precio": 149.99,
+        "Categoría": "Electrónica",
+        "Disponible": false
+      },
+      {
+        "Nombre": "Teclado Mecánico",
+        "Precio": 89.99,
+        "Categoría": "Accesorios",
+        "Disponible": true
+      },
+      {
+        "Nombre": "Mouse Inalámbrico",
+        "Precio": 29.99,
+        "Categoría": "Accesorios",
+        "Disponible": true
+      },
+      {
+        "Nombre": "Cámara Canon EOS 2000D",
+        "Precio": 499.99,
+        "Categoría": "Cámaras",
+        "Disponible": false
+      },
+      {
+        "Nombre": "Smart TV 50\"",
+        "Precio": 699.99,
+        "Categoría": "Electrónica",
+        "Disponible": true
+      }
+    ]
+  }
+  

@@ -7,7 +7,7 @@ boton.addEventListener("click",
 ()=>{
     let elemento = input.value
     nuevoLi(elemento)
-
+ 
     input.value=""
 }
 )
@@ -15,6 +15,9 @@ boton.addEventListener("click",
 function nuevoLi(contenido){
 let hijo = document.createElement("li")
 hijo.innerHTML=contenido
+hijo.addEventListener("click",()=>{
+    ul.removeChild(hijo)
+})
 ul.appendChild(hijo)
 
 }
