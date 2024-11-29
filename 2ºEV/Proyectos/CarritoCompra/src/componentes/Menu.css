@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del menú */
+.menu {
+    background-color: #888686;  /* Color de fondo */
+    color: white;            /* Color del texto */
+    position: fixed;         /* Fijo en la pantalla */
+    top: 0;                  /* Fijado en la parte superior */
+    left: 0;                 /* Fijado a la izquierda */
+    width: 100%;             /* Que ocupe todo el ancho */
+    padding: 10px 0;         /* Espaciado en el menú */
+    z-index: 1000;           /* Asegura que esté por encima del contenido */
+}
+
+.menu ul {
+    list-style-type: none;   /* Quitar los puntos de la lista */
+    text-align: center;      /* Centrar el menú */
+}
+
+.menu li {
+    display: inline;         /* Mostrar elementos en línea */
+    margin: 0 15px;          /* Espaciado entre enlaces */
+}
+
+.menu a {
+    color: white;            /* Color de los enlaces */
+    text-decoration: none;   /* Sin subrayado */
+    font-size: 18px;         /* Tamaño de la fuente */
+}
+
+.menu a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
