@@ -1,10 +1,13 @@
+
 import './App.css'
-import Li from './componentes/Li'
 
 function App() {
-<>
-</>
-  
+
+  return (
+    <>
+      
+    </>
+  )
 }
 
 export default App
