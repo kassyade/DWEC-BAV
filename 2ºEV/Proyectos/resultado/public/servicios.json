@@ -1,0 +1,15 @@
+[
+    {
+      "nombre": "Servicio 1",
+      "descripcion": "Descripción del servicio 1",
+      "url": "http://servicio1.com",
+      "importe": 100
+    },
+    {
+      "nombre": "Servicio 2",
+      "descripcion": "Descripción del servicio 2",
+      "url": "http://servicio2.com",
+      "importe": 200
+    }
+  ]
+  

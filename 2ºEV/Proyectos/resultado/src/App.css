@@ -1,0 +1,154 @@
+/* Estilos globales */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #374151;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Contenedor principal */
+#root {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Encabezado (ComponenteSuperior) */
+.componente-superior {
+  padding: 20px;
+  background: linear-gradient(135deg, #4f46e5, #6d28d9);
+  color: white;
+  text-align: center;
+  border-bottom: 3px solid #4338ca;
+  border-radius: 15px 15px 0 0;
+}
+
+.componente-superior p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Cuerpo central (ComponenteCentral) */
+.componente-central {
+  padding: 20px;
+  background-color: #f9fafb;
+}
+
+.componente-central ul {
+  list-style: none;
+  padding: 0;
+}
+
+.componente-central li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.componente-central li:hover {
+  transform: translateY(-5px);
+  background-color: #f3f4f6;
+}
+
+.componente-central button {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.componente-central button:hover {
+  background-color: #dc2626;
+}
+
+/* Formulario para agregar servicio */
+.componente-central form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.componente-central input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.componente-central input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+}
+
+.componente-central button {
+  background-color: #10b981;
+  color: white;
+  font-size: 1rem;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.componente-central button:hover {
+  background-color: #059669;
+}
+
+/* Pie de página (ComponenteInferior) */
+.componente-inferior {
+  padding: 20px;
+  background-color: #f3f4f6;
+  text-align: center;
+  border-top: 1px solid #e5e7eb;
+  border-radius: 0 0 15px 15px;
+}
+
+.componente-inferior p {
+  margin: 10px 0;
+  color: #374151;
+}
+
+/* Botones globales */
+button {
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
