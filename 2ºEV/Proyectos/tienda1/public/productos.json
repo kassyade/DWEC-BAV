@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "nombre": "Laptop",
+      "descripcion": "Laptop de alto rendimiento con procesador Intel i7.",
+      "precio": 1200,
+      "url": "https://example.com/laptop.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Smartphone",
+      "descripcion": "Teléfono inteligente con pantalla OLED de 6.5 pulgadas.",
+      "precio": 800,
+      "url": "https://example.com/smartphone.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Audífonos Bluetooth",
+      "descripcion": "Audífonos inalámbricos con cancelación de ruido.",
+      "precio": 150,
+      "url": "https://example.com/audifonos.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Smartwatch",
+      "descripcion": "Reloj inteligente con seguimiento de actividad física.",
+      "precio": 200,
+      "url": "https://example.com/smartwatch.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Teclado Mecánico",
+      "descripcion": "Teclado mecánico RGB con interruptores táctiles.",
+      "precio": 100,
+      "url": "https://example.com/teclado.jpg"
+    }
+  ]
+  
