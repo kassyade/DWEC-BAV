@@ -1,22 +1,27 @@
-import React from 'react';
+import React from "react";
 
-const Lista = ({ tareas }) => {
-  return (
-    <div>
-      <h3>Lista de Tareas</h3>
-      <ul>
-        {tareas.length === 0 ? (
-          <p>No hay tareas aún.</p>
-        ) : (
-          tareas.map((tarea, index) => (
-            <li key={index}>
-              <strong>{tarea.titulo}:</strong> {tarea.descripcion}
-            </li>
-          ))
-        )}
-      </ul>
-    </div>
-  );
-};
+
+const Lista = ({tareas})=>{
+
+return(
+  <>
+  <h2>lista de tareas</h2>
+  <ul>
+    {
+      tareas.map(
+        (tarea,index)=>(
+          <li key={index}>
+            <p>{tarea.titulo}</p>
+            <p>{tarea.descripcion}</p>
+          </li>
+        )
+      )
+    }
+  </ul>
+  </>
+)
+
+
+}
 
 export default Lista;
