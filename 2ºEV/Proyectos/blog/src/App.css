@@ -1,13 +1,12 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.app-container {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.app-titulo {
   text-align: center;
+  color: #222;
+  margin-bottom: 20px;
 }
-
-body {
-  background-color: rgb(167, 164, 161);
-}
-
-
-

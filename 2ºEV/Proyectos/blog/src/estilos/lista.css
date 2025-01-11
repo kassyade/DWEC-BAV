@@ -1,0 +1,36 @@
+.lista-container {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .lista-titulo {
+    text-align: center;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  .lista-posts {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .post-item {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-titulo {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #222;
+  }
+  
+  .post-contenido {
+    font-size: 14px;
+    color: #555;
+  }
+  
