@@ -1,0 +1,47 @@
+/* Estilos generales para la página 404 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+div {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo del mensaje principal */
+h2 {
+    font-size: 48px;
+    color: #ff4d4d;
+    margin: 0;
+}
+
+/* Mensaje adicional */
+p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Enlace de regreso */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
