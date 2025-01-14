@@ -1,4 +1,5 @@
 import React from 'react';
+import '../estilos/DetalleCarritos.css';
 
 const DetalleCarrito = ({productos ,detalles  }) => {
 
@@ -9,28 +10,20 @@ const DetalleCarrito = ({productos ,detalles  }) => {
             <h2>Detalles carrito</h2>
 
             <ul>
-                {
-                    productos.map(
-                        (producto,index)=>{
-                            
-                            const detalle =detalles.find(  (x)=>x.nombre===producto   )
+  {productos.map((producto, index) => {
+    const detalle = detalles.find((x) => x.nombre === producto);
+    return (
+      <li key={index}>
+        <div>
+          <h3><b>Nombre: </b>{detalle.nombre}</h3>
+          <p> <b>Precio: </b>{detalle.precio}$</p>
+        </div>
+        <img src={detalle.url} alt={detalle.nombre} />
+      </li>
+    );
+  })}
+</ul>
 
-
-                            return(
-                                <li key={index}>
-                                    {detalle.nombre}
-                                    {detalle.precio}
-                                    <img src={detalle.url}  />
-                                </li>
-                            )
-                        }
-
-
-                    )
- 
-                           
-                }
-            </ul>
 
 
         </div>
