@@ -3,7 +3,7 @@ import "../estilos/menu.css";
 import { Link } from "react-router-dom";
 
 // Componente MenuSuperior
-const MenuSuperior = ({ total, productos }) => {
+const MenuSuperior = ({  productos }) => {
   const [carritoVisible, setCarritoVisible] = useState(false);
 
   const toggleCarrito = () => {
@@ -22,9 +22,6 @@ const MenuSuperior = ({ total, productos }) => {
       <Link   to="/">Inicio</Link>
       <Link  to="detalle">Detalle</Link>
 
-
-      {/* Texto a la derecha */}
-      <span className="carrito-texto">{productos.length} : {total}Є</span>
 
       {/* Botón para mostrar/ocultar carrito */}
       <button className="toggle-carrito" onClick={toggleCarrito}>

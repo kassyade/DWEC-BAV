@@ -38,7 +38,7 @@ function App() {
         <Route path='*' element={<Pagina404/>}   ></Route>
         {/** 5 definimos la pagina de detalles */}
         
-        <Route  path='detalle' element={<DetalleCarrito productos={productos} detalles={imageUrls}  />}  ></Route>
+        <Route  path='detalle' element={<DetalleCarrito productos={productos} detalles={imageUrls} precioTotal={total} productosCantidad={productos} />}  ></Route>
       </Routes>
       </main>
     </div>

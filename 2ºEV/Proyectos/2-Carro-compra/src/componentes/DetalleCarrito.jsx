@@ -1,9 +1,8 @@
 import React from 'react';
 import '../estilos/DetalleCarritos.css';
 
-const DetalleCarrito = ({productos ,detalles  }) => {
+const DetalleCarrito = ({productos ,detalles ,precioTotal,productosCantidad }) => {
 
-    
 
     return (
         <div>
@@ -24,8 +23,14 @@ const DetalleCarrito = ({productos ,detalles  }) => {
   })}
 </ul>
 
-
-
+<div className="resumen-carrito">
+        <p className="cantidad-productos">
+          <b>Cantidad de productos:</b> {productosCantidad.length}
+        </p>
+        <p className="precio-total">
+          <b>Precio total:</b> {precioTotal}$
+        </p>
+      </div>
         </div>
     );
 }
