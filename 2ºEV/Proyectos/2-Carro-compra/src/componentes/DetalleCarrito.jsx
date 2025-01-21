@@ -1,7 +1,7 @@
 import React from 'react';
 import '../estilos/DetalleCarritos.css';
 
-const DetalleCarrito = ({ productos, detalles, precioTotal, productosCantidad }) => {
+const DetalleCarrito = ({ productos, precioTotal }) => {
 
     // Función para contar cuántas veces se repite un producto
     const cantidadItem = (nombre) => {
@@ -15,7 +15,7 @@ const DetalleCarrito = ({ productos, detalles, precioTotal, productosCantidad })
         productosFinales.set(producto, cantidadItem(producto));
     });
 
-    const totalCantidad = Array.from(productosFinales.values()).reduce((total, cantidad) => total + cantidad, 0);
+    const totalCantidad = Array.from(productosFinales.values()).reduce((total, cantidad) => total + cantidad, 0);//reduce   
 
     return (
         <div>
