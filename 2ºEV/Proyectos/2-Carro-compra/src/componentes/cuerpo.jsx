@@ -1,23 +1,12 @@
 import '../estilos/cuerpo.css';
-
-// Datos de imágenes
-
-
 // Componente ListaImagenes
 const ListaImagenes = ({ total, setTotal , productos, setProductos ,imagenes}) => {
   
-  const AnadirProducto = (nombre, precio) => {
-    //alert(`${nombre} añadido al carrito, con precio ${precio}`);
-    
+
+  const AnadirProducto = (nombre, precio) => {    
     setTotal(total + precio); // Actualiza el total
-
-    // setProductos((prevArray) => {    
-
-    //   return [...prevArray, nombre]
-    // }) 
-    
+    //añade el producto en el array de productos seleccionados 
     setProductos([...productos, nombre]);
-        
     //console.log(productos)
    
   };
