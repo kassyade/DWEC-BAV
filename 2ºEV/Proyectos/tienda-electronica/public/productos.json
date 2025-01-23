@@ -1,0 +1,5 @@
+[
+    { "id": 1, "nombre": "Laptop", "precio": 1200, "categoria": "Tecnología" },
+    { "id": 2, "nombre": "Cámara", "precio": 700, "categoria": "Fotografía" }
+  ]
+  
