@@ -3,7 +3,7 @@ import { buscarProducto , incrementarCantidad } from '../herramientas/buscarProd
 
 
 
-// Componente ListaImagenes
+// Componente ListaImageness
 const ListaImagenes = ({ total, setTotal , productos, setProductos , informacion}) => {
   
   const AnadirProducto = (nombre, precio) => {    
