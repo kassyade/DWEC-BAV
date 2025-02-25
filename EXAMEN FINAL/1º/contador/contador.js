@@ -1,14 +1,14 @@
-let x = prompt("Introduce el timepo de espera")
-console.log("el contador inicia en",x)
-let contador=setInterval(
+let x = prompt("introduce el inicio del contador")
+console.log("la cuenta inicia",x)
+let id = setInterval(
     ()=>{
         console.log(x--)
         if(x<0){
-            clearInterval(contador)
+            clearInterval(id)
+            console.log("cuenta terminada")
             setTimeout(
                 ()=>{
-                    console.log("contador finalizado")
-                    alert("hasta la proxima")
+                    alert("la cuenta termino gil ")
                 },2000
             )
         }

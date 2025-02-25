@@ -1,0 +1,8 @@
+.cuadrado{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;  /* Permite moverlo con 'top' y 'left' */
+    top: 50px;  /* Posición Y */
+    left: 100px; /* Posición X */
+}
