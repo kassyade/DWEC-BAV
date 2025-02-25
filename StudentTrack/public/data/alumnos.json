@@ -1,9 +1,0 @@
-{
-    "alumnos" : [
-     { "id": 1, "nombre": "Javier", "apellidos": "Gomez perez" },
-     { "id": 2, "nombre": "Madaara", "apellidos": "Uchiha" },
-     { "id": 3, "nombre": "Jonny", "apellidos": "Joestar"  },  
-     { "id": 4, "nombre": "Pepito", "apellidos": "Grillo" }      
-   ]
-  }
-  
